@@ -6,8 +6,9 @@ export default function SignIn(){
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    
 
-    return <div className="h-screen w-screen items-center justify-center">
+    return <div className="h-screen w-screen flex items-center justify-center">
         <div>
             <input onChange={(e) => {
                 setUsername(e.target.value)
