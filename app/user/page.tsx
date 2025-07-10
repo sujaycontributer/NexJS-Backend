@@ -30,7 +30,8 @@ import axios from "axios";
 
 // lets make this  client componet to a server compoent while doing the same task
 
-// *******thats pre-render on the server then return to the browser 
+// *******thats pre-render on the server then return to the browser  Server side render
+
 export default async function User(){
   
   const res = await axios.get("https://week-13-offline.kirattechnologies.workers.dev/api/v1/user/details");
