@@ -4,7 +4,8 @@ import { useState } from "react"
 
 export default function SignIn(){
 
-    const [username, setUsername] = useState("");
+    // Using states, better would be Useref
+    const [username, setUsername] = useState(""); 
     const [password, setPassword] = useState("");
     
 
