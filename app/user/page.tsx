@@ -34,7 +34,7 @@ import axios from "axios";
 
 export default async function User(){
   
-  const res = await axios.get("https://week-13-offline.kirattechnologies.workers.dev/api/v1/user/details");
+  const res = await axios.get("https://week-13-offline.kirattechnologies.workers.dev/api/v1/user/details"); // getting  random data
   const data = res.data;
   console.log(data) // lets check to pre-render on the server
   return <div>
